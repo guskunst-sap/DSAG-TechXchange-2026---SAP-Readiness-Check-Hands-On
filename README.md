@@ -11,7 +11,7 @@ Information about the content and how to work with the current folder.
 
 # Creation of your Analysis
 
-1. Choose one SAP Readiness Check scenario you want to try out (SAP S/4HANA, SAP ERP Usage and Data Profiling, or SAP Cloud ALM). Download the scenario file from the [Collector Files](https://github.com/guskunst-sap/DSAG-TechXchange-2026---SAP-Readiness-Check-Hands-On/tree/main/Collector%20Files) folder to your local device.
+1. Choose one SAP Readiness Check scenario you want to try out (SAP S/4HANA, SAP ERP Usage and Data Profiling, or SAP Cloud ALM). Download the scenario file from the [Collector Files](https://github.com/guskunst-sap/DSAG-TechXchange-2026---SAP-Readiness-Check-Hands-On/tree/main/Collector%20files) folder to your local device.
 2. Log-in to the [SAP Cloud ALM Hands-on System](https://calm-test-eu10-004-relctestbeta-customer-11.test.eu10.alm.cloud.sap/)
 3. Open the **SAP Readiness Check** app from the Service tab.
 4. Enter a unique analysis name, starting with your participant number (Example: xx_s4/UDP/CALM_analysis).
