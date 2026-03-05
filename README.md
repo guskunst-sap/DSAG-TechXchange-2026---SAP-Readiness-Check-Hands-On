@@ -1,41 +1,18 @@
-# SAP-samples/repository-template
-This default template for SAP Samples repositories includes files for README, LICENSE, and REUSE.toml. All repositories on github.com/SAP-samples will be created based on this template.
+# DSAG TechXchange 2026 - SAP Readiness Check Hands-on session
+You will find in this folder the necesary files to work on the Hands-on session for SAP Readiness Check in the DSAG TechXchange Day 2026 in Hamburg.
 
 # Containing Files
 
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
+* The LICENSE file:
+License for SAP sample projects is `Apache 2.0`.
 
-2. The REUSE.toml file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the REUSE.toml in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
+* The README.md file (this file):
+Information about the content and how to work with the current folder.
 
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
+# Creation of your Analysis
 
-# [Title]
-<!-- Please include descriptive title -->
-
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
-
-## Description
-<!-- Please include SEO-friendly description -->
-
-## Requirements
-
-## Download and Installation
-
-## Known Issues
-<!-- You may simply state "No known issues. -->
-
-## How to obtain support
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
- 
-For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
-
-## Contributing
-If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
-
-## License
-Copyright (c) 2026 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
+1. Choose one SAP Readiness Check scenario you want to try out (SAP S/4HANA, SAP ERP Usage and Data Profiling, or SAP Cloud ALM). Download the scenario file from the [Collector Files](https://github.com/guskunst-sap/DSAG-TechXchange-2026---SAP-Readiness-Check-Hands-On/tree/main/Collector%20Files) folder to your local device.
+2. Log-in to the [SAP Cloud ALM Hands-on System](https://calm-test-eu10-004-relctestbeta-customer-11.test.eu10.alm.cloud.sap/)
+3. Open the **SAP Readiness Check** app from the Service tab.
+4. Enter a unique analysis name, starting with your participant number (Example: xx_s4/UDP/CALM_analysis).
+5. Click **Create**. The analysis will be visible in the analysis list on the landing page with status *In Preparation*. Once the status changes to *Available*, you can open your new analysis.
